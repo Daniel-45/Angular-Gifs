@@ -1,0 +1,14 @@
+<h3 class="font-weight-bold">Buscar Gifs</h3>
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">
+      <i class="fa fa-search" (click)="search()"></i>
+    </span>
+  </div>
+  <input 
+    type="text" 
+    class="form-control"
+    (keyup.enter)="search()"
+    #searchTerm
+  >
+</div>

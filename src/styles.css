@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/assets/fonts/Roboto.ttf");
+}
+
+* {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
+  
+  #sidebar {
+    height: 100%;
+    min-width: 18em;
+    min-height: 100vh;
+  }
+}
+
+
